@@ -1,0 +1,33 @@
+name: ROUTES Backend
+
+on:
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+  schedule:
+    # every 30 min during US market hours (Mon–Fri, 13:00–21:00 UTC ≈ 9am–5pm ET)
+    - cron: "*/30 13-21 * * 1-5"
+
+permissions:
+  contents: write             # allows the job to commit state.json back to the repo
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run ROUTES backend
+        run: python routes_backend.py
+
+      - name: Commit updated state.json
+        run: |
+          git config user.name "routes-bot"
+          git config user.email "actions@github.com"
+          git add state.json
+          git commit -m "ROUTES backend sync [skip ci]" || echo "no changes"
+          git push
