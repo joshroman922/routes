@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROUTES Apex — Command Hub</title>
+<style>
+  :root{--bg:#09090b;--accent:#38bdf8;--text:#f8fafc;--text-dim:#94a3b8;--green:#4ade80;--red:#f87171;
+    --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono","Roboto Mono",monospace}
+  *{box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    margin:0 auto;padding:16px;max-width:760px;background-image:radial-gradient(circle at top right,rgba(56,189,248,.06),transparent 40%);min-height:100vh}
+  .header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,.1);padding-bottom:12px;margin-bottom:8px}
+  .header strong{font-family:var(--mono);letter-spacing:.1em}
+  .status-pill{font-size:11px;background:rgba(74,222,128,.15);color:var(--green);padding:4px 10px;border-radius:12px;font-weight:600;font-family:var(--mono);letter-spacing:.05em}
+  .feed{font-family:var(--mono);font-size:10px;color:var(--text-dim);margin-bottom:16px;text-align:right}
+  .feed.warn{color:#fbbf24}
+  .card{background:rgba(19,28,46,.4);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+    border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:16px;margin-bottom:16px;box-shadow:0 4px 30px rgba(0,0,0,.2)}
+  h2{font-size:12px;color:var(--text-dim);text-transform:uppercase;margin:0 0 12px;letter-spacing:.08em;font-family:var(--mono)}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:10px 6px;border-bottom:1px solid rgba(255,255,255,.05)}
+  th{color:var(--text-dim);font-size:11px;font-family:var(--mono)}
+  td.tk{font-family:var(--mono);font-weight:600}
+  .regime-box{background:rgba(56,189,248,.08);border-left:3px solid var(--accent);padding:14px;border-radius:0 12px 12px 0;margin-bottom:16px;font-size:13px}
+  .regime-title{font-weight:600;font-family:var(--mono);color:var(--accent);margin-bottom:4px;letter-spacing:.05em}
+  .audit-row{display:flex;justify-content:space-between;font-size:13px;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+  .audit-row .n{font-family:var(--mono)}
+  .verdict{font-size:13px;color:var(--text-dim);margin-top:12px;line-height:1.5;border-left:2px solid var(--accent);padding-left:12px}
+  .stamp{font-family:var(--mono);font-size:10px;color:var(--text-dim);margin-top:12px}
+  .ceiling{font-family:var(--mono);font-size:10px;color:var(--text-dim);text-align:center;margin-top:22px;line-height:1.7;letter-spacing:.03em;opacity:.8}
+</style>
+</head>
+<body>
+  <div class="header"><strong>ROUTES APEX</strong><span class="status-pill" id="sync">CONNECTING…</span></div>
+  <div class="feed" id="feed"></div>
+
+  <div class="regime-box">
+    <div class="regime-title" id="regimeTitle">MARKET REGIME: SCANNING</div>
+    <div id="regimeNote" style="color:var(--text-dim)">Reading the volatility gauge…</div>
+  </div>
+
+  <div class="card">
+    <h2>Tactical Watchlist</h2>
+    <table><thead><tr><th>TICKER</th><th>PRICE</th><th>DAY</th><th>ACTIVITY</th></tr></thead>
+      <tbody id="rows"><tr><td colspan="4" style="color:var(--text-dim)">Fetching secure state…</td></tr></tbody></table>
+    <div class="stamp" id="stamp"></div>
+  </div>
+
+  <div class="card">
+    <h2>Self-Audit Scorecard</h2>
+    <div id="auditText"><div style="color:var(--text-dim);font-size:13px">Loading…</div></div>
+  </div>
+
+  <p class="ceiling">
+    APEX WATCHES · TAGS THE REGIME · SCORES ITS OWN FLAGS<br>
+    IT DOES NOT PREDICT PRICE OR DECIDE TRADES — THAT STAYS YOURS<br>
+    NOT FINANCIAL ADVICE
+  </p>
+
+<script>
+async function loadState(){
+  try{
+    const d = await (await fetch('./state.json?t='+Date.now())).json();
+    document.getElementById('sync').innerText = d.status || 'LIVE';
+
+    const feedEl=document.getElementById('feed');
+    feedEl.innerText = d.feed ? 'FEED: '+d.feed : '';
+    feedEl.className = (d.feed && d.feed.indexOf('Yahoo')>-1) ? 'feed warn' : 'feed';
+
+    const reg=d.regime||{label:'UNKNOWN',note:''};
+    document.getElementById('regimeTitle').innerText = reg.label;
+    document.getElementById('regimeNote').innerText = reg.note;
+
+    const rows=document.getElementById('rows'); rows.innerHTML='';
+    (d.watchlist||[]).forEach(it=>{
+      const up=!String(it.change).startsWith('-');
+      const tr=document.createElement('tr');
+      tr.innerHTML=`<td class="tk">${it.ticker}</td><td>$${it.price}</td>`+
+        `<td style="color:${up?'var(--green)':'var(--red)'}">${it.change}</td>`+
+        `<td style="font-size:11px;color:var(--text-dim)">${it.volume}${it.volume==='Volume expansion'?' ⚡':''}</td>`;
+      rows.appendChild(tr);
+    });
+    document.getElementById('stamp').innerText = d.lastRun ? 'Last sync: '+new Date(d.lastRun).toLocaleString() : '';
+
+    const a=d.audit||{};
+    document.getElementById('auditText').innerHTML=
+      `<div class="audit-row"><span>Flags logged</span><span class="n">${a.flagsLogged||0}</span></div>`+
+      `<div class="audit-row"><span>Resolved (window closed)</span><span class="n">${a.resolved||0}</span></div>`+
+      `<div class="audit-row"><span>Preceded a real move</span><span class="n" style="color:var(--accent)">${a.realMove||0} &nbsp;(<span style="color:var(--green)">${a.moveUp||0}↑</span> / <span style="color:var(--red)">${a.moveDown||0}↓</span>)</span></div>`+
+      `<div class="audit-row"><span>Was just noise</span><span class="n" style="color:var(--text-dim)">${a.noise||0}</span></div>`+
+      `<div class="verdict">${a.verdict||'Scorecard builds as flags fire and their 5-day windows close.'}</div>`;
+  }catch(e){
+    const s=document.getElementById('sync'); s.innerText='NO STATE'; s.style.color='var(--red)';
+    document.getElementById('rows').innerHTML='<tr><td colspan="4" style="color:var(--text-dim)">No state.json yet — run the backend once.</td></tr>';
+  }
+}
+loadState();
+setInterval(loadState,5*60*1000);
+</script>
+</body>
+</html>
