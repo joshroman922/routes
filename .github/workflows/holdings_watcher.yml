@@ -1,0 +1,29 @@
+name: Holdings Watcher
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 13-21 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run holdings watcher
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python holdings_watcher.py
+      - name: Commit alert state
+        run: |
+          git config user.name "holdings-bot"
+          git config user.email "actions@github.com"
+          git add holdings_alert_state.json
+          git commit -m "holdings watcher state [skip ci]" || echo "no changes"
+          git push

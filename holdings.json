@@ -1,0 +1,5 @@
+{
+  "_instructions": "List each stock you own. 'buy' is required. 'target' and 'stop' are optional sell/cut prices. Replace the examples with your real holdings.",
+  "V": {"buy": 381.00, "target": 410.00, "stop": 360.00},
+  "NVDA": {"buy": 217.00}
+}
