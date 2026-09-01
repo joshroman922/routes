@@ -29,72 +29,72 @@
     }
   ],
   "regime": {
-    "label": "NORMAL \u00b7 VIX 16.4",
+    "label": "NORMAL \u00b7 VIX 16.3",
     "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "500.67",
-      "change": "+7.74%",
+      "price": "501.02",
+      "change": "+7.81%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "372.79",
-      "change": "+1.82%",
+      "price": "372.67",
+      "change": "+1.79%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "581.44",
-      "change": "+1.46%",
+      "price": "581.10",
+      "change": "+1.40%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "354.70",
-      "change": "+0.83%",
+      "price": "354.95",
+      "change": "+0.90%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "217.38",
-      "change": "+8.29%",
+      "price": "217.44",
+      "change": "+8.31%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "1001.19",
-      "change": "-1.69%",
+      "price": "1002.56",
+      "change": "-1.55%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
       "price": "22.00",
-      "change": "+9.53%",
+      "change": "+9.51%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "92.56",
-      "change": "+40.69%",
+      "price": "92.39",
+      "change": "+40.43%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "103.36",
-      "change": "+19.41%",
+      "price": "103.51",
+      "change": "+19.58%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "176.71",
-      "change": "+20.82%",
+      "price": "176.82",
+      "change": "+20.89%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-01T19:59:15.003385+00:00"
+  "lastRun": "2026-09-01T22:22:36.514838+00:00"
 }
