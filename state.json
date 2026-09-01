@@ -1,19 +1,19 @@
 {
   "audit": {
     "flagsLogged": 3,
-    "resolved": 2,
-    "realMove": 2,
+    "resolved": 3,
+    "realMove": 3,
     "moveUp": 0,
-    "moveDown": 2,
+    "moveDown": 3,
     "noise": 0,
-    "verdict": "Not enough resolved flags yet (2). Scorecard builds as flags fire and their 5-day windows close."
+    "verdict": "Not enough resolved flags yet (3). Scorecard builds as flags fire and their 5-day windows close."
   },
   "flags": [
     {
       "ticker": "ESTC",
       "anchor": 97.55,
       "date": "2026-08-31T23:15:03.648441+00:00",
-      "resolved": false
+      "resolved": true
     },
     {
       "ticker": "GAP",
@@ -29,72 +29,72 @@
     }
   ],
   "regime": {
-    "label": "CALM \u00b7 VIX 14.9",
-    "note": "Low volatility. Stops behave; normal sizing."
+    "label": "NORMAL \u00b7 VIX 16.0",
+    "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "507.29",
-      "change": "+9.16%",
+      "price": "500.65",
+      "change": "+7.73%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "379.37",
-      "change": "+3.62%",
+      "price": "375.37",
+      "change": "+2.52%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "589.31",
-      "change": "+2.83%",
+      "price": "584.94",
+      "change": "+2.07%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "356.02",
-      "change": "+1.20%",
+      "price": "355.89",
+      "change": "+1.16%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "220.78",
-      "change": "+9.98%",
+      "price": "219.44",
+      "change": "+9.31%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "1025.90",
-      "change": "+0.74%",
+      "price": "1012.11",
+      "change": "-0.62%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "22.31",
-      "change": "+11.05%",
+      "price": "21.84",
+      "change": "+8.74%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "97.55",
-      "change": "+48.27%",
-      "volume": "Volume expansion"
+      "price": "93.52",
+      "change": "+42.15%",
+      "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "104.81",
-      "change": "+21.08%",
+      "price": "104.52",
+      "change": "+20.75%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "188.12",
-      "change": "+28.62%",
+      "price": "178.07",
+      "change": "+21.75%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-08-31T23:15:04.405437+00:00"
+  "lastRun": "2026-09-01T17:00:54.336692+00:00"
 }
