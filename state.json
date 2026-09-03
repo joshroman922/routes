@@ -35,72 +35,72 @@
     }
   ],
   "regime": {
-    "label": "CALM \u00b7 VIX 14.4",
+    "label": "CALM \u00b7 VIX 14.3",
     "note": "Low volatility. Stops behave; normal sizing."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "511.07",
-      "change": "+4.80%",
+      "price": "510.12",
+      "change": "+4.61%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "378.82",
-      "change": "+3.60%",
+      "price": "378.75",
+      "change": "+3.58%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "584.89",
-      "change": "+2.44%",
+      "price": "585.71",
+      "change": "+2.58%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "362.43",
-      "change": "+2.78%",
+      "price": "362.06",
+      "change": "+2.67%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "229.59",
-      "change": "+11.11%",
+      "price": "228.45",
+      "change": "+10.55%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "1037.20",
-      "change": "+0.99%",
+      "price": "1037.93",
+      "change": "+1.06%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "22.27",
-      "change": "+8.71%",
+      "price": "22.32",
+      "change": "+8.93%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "95.68",
-      "change": "+39.19%",
+      "price": "96.13",
+      "change": "+39.85%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "124.11",
-      "change": "+37.38%",
+      "price": "124.72",
+      "change": "+38.06%",
       "volume": "Volume expansion"
     },
     {
       "ticker": "COIN",
-      "price": "193.09",
-      "change": "+31.80%",
+      "price": "192.70",
+      "change": "+31.54%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-03T19:29:01.961672+00:00"
+  "lastRun": "2026-09-03T21:48:08.797223+00:00"
 }
