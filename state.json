@@ -35,72 +35,72 @@
     }
   ],
   "regime": {
-    "label": "CALM \u00b7 VIX 14.3",
+    "label": "CALM \u00b7 VIX 14.0",
     "note": "Low volatility. Stops behave; normal sizing."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "510.12",
-      "change": "+4.61%",
+      "price": "501.36",
+      "change": "+1.73%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "378.75",
-      "change": "+3.58%",
+      "price": "376.25",
+      "change": "+1.80%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "585.71",
-      "change": "+2.58%",
+      "price": "582.21",
+      "change": "+1.94%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "362.06",
-      "change": "+2.67%",
+      "price": "357.99",
+      "change": "+0.13%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "228.45",
-      "change": "+10.55%",
+      "price": "231.23",
+      "change": "+9.10%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "1037.93",
-      "change": "+1.06%",
+      "price": "1032.76",
+      "change": "-1.92%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "22.32",
-      "change": "+8.93%",
+      "price": "22.59",
+      "change": "+9.58%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "96.13",
-      "change": "+39.85%",
+      "price": "92.49",
+      "change": "+30.16%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "124.72",
-      "change": "+38.06%",
-      "volume": "Volume expansion"
+      "price": "123.64",
+      "change": "+32.23%",
+      "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "192.70",
-      "change": "+31.54%",
+      "price": "185.64",
+      "change": "+23.16%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-03T21:48:08.797223+00:00"
+  "lastRun": "2026-09-04T16:38:09.954564+00:00"
 }
