@@ -35,8 +35,8 @@
     }
   ],
   "regime": {
-    "label": "CALM \u00b7 VIX 14.5",
-    "note": "Low volatility. Stops behave; normal sizing."
+    "label": "NORMAL \u00b7 VIX 15.3",
+    "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
     {
@@ -102,5 +102,5 @@
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-04T21:35:33.383885+00:00"
+  "lastRun": "2026-09-07T17:57:50.843708+00:00"
 }
