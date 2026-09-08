@@ -35,72 +35,72 @@
     }
   ],
   "regime": {
-    "label": "NORMAL \u00b7 VIX 15.6",
+    "label": "NORMAL \u00b7 VIX 15.7",
     "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "493.22",
-      "change": "-1.35%",
+      "price": "493.95",
+      "change": "-1.21%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "369.28",
-      "change": "+1.87%",
+      "price": "368.64",
+      "change": "+1.69%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "570.05",
-      "change": "+1.26%",
+      "price": "570.89",
+      "change": "+1.41%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "354.09",
-      "change": "-0.96%",
+      "price": "353.51",
+      "change": "-1.12%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "225.78",
-      "change": "+0.81%",
+      "price": "225.73",
+      "change": "+0.79%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "1033.51",
-      "change": "-0.59%",
+      "price": "1036.53",
+      "change": "-0.30%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "22.34",
-      "change": "+9.11%",
+      "price": "22.38",
+      "change": "+9.33%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "89.29",
-      "change": "+18.88%",
+      "price": "88.42",
+      "change": "+17.72%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "118.17",
-      "change": "+26.67%",
+      "price": "117.34",
+      "change": "+25.78%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "179.35",
-      "change": "+16.76%",
+      "price": "178.94",
+      "change": "+16.50%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-08T19:38:19.861113+00:00"
+  "lastRun": "2026-09-08T22:04:43.987678+00:00"
 }
