@@ -35,72 +35,66 @@
     }
   ],
   "regime": {
-    "label": "NORMAL \u00b7 VIX 16.7",
+    "label": "NORMAL \u00b7 VIX 17.1",
     "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "508.64",
-      "change": "+2.67%",
+      "price": "505.41",
+      "change": "+2.02%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "375.81",
-      "change": "+3.20%",
-      "volume": "Normal"
-    },
-    {
-      "ticker": "MA",
-      "price": "574.50",
-      "change": "+0.92%",
+      "price": "375.28",
+      "change": "+3.06%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "348.28",
-      "change": "-4.01%",
+      "price": "350.13",
+      "change": "-3.50%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "212.47",
-      "change": "-5.64%",
+      "price": "210.96",
+      "change": "-6.31%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "981.29",
-      "change": "-5.59%",
+      "price": "988.45",
+      "change": "-4.90%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "21.08",
-      "change": "+2.33%",
+      "price": "20.92",
+      "change": "+1.55%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "85.48",
-      "change": "-1.38%",
+      "price": "85.11",
+      "change": "-1.81%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "113.91",
-      "change": "+19.20%",
+      "price": "114.33",
+      "change": "+19.64%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "190.34",
-      "change": "+28.20%",
+      "price": "191.45",
+      "change": "+28.95%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-14T18:14:08.219080+00:00"
+  "lastRun": "2026-09-14T21:55:38.675116+00:00"
 }
