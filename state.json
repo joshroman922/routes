@@ -41,7 +41,7 @@
     }
   ],
   "regime": {
-    "label": "NORMAL \u00b7 VIX 17.3",
+    "label": "NORMAL \u00b7 VIX 17.2",
     "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
@@ -108,5 +108,5 @@
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-15T20:18:56.851304+00:00"
+  "lastRun": "2026-09-15T22:58:52.378132+00:00"
 }
