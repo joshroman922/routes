@@ -71,7 +71,7 @@
     }
   ],
   "regime": {
-    "label": "CALM \u00b7 VIX 14.3",
+    "label": "CALM \u00b7 VIX 14.2",
     "note": "Low volatility. Stops behave; normal sizing."
   },
   "watchlist": [
@@ -138,5 +138,5 @@
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-22T20:16:16.047637+00:00"
+  "lastRun": "2026-09-22T23:03:02.130757+00:00"
 }
