@@ -71,72 +71,72 @@
     }
   ],
   "regime": {
-    "label": "CALM \u00b7 VIX 14.9",
+    "label": "CALM \u00b7 VIX 14.3",
     "note": "Low volatility. Stops behave; normal sizing."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "501.61",
-      "change": "+3.80%",
+      "price": "497.23",
+      "change": "+2.90%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "369.95",
-      "change": "-0.29%",
+      "price": "363.03",
+      "change": "-2.16%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "567.65",
-      "change": "-2.24%",
+      "price": "558.66",
+      "change": "-3.78%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "352.04",
-      "change": "+0.13%",
+      "price": "339.82",
+      "change": "-3.34%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "227.38",
-      "change": "+5.90%",
+      "price": "229.57",
+      "change": "+6.92%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "959.39",
-      "change": "-7.69%",
+      "price": "947.07",
+      "change": "-8.87%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "21.25",
-      "change": "+7.32%",
+      "price": "21.50",
+      "change": "+8.61%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "89.71",
-      "change": "+4.39%",
+      "price": "89.11",
+      "change": "+3.68%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "123.30",
-      "change": "+14.03%",
+      "price": "124.29",
+      "change": "+14.94%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "201.05",
-      "change": "+7.81%",
+      "price": "199.82",
+      "change": "+7.15%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-21T22:04:18.225899+00:00"
+  "lastRun": "2026-09-22T17:23:28.102139+00:00"
 }
