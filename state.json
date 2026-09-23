@@ -1,31 +1,31 @@
 {
   "audit": {
     "flagsLogged": 10,
-    "resolved": 7,
+    "resolved": 10,
     "realMove": 4,
     "moveUp": 1,
     "moveDown": 3,
-    "noise": 3,
-    "verdict": "Not enough resolved flags yet (7). Scorecard builds as flags fire and their 5-day windows close."
+    "noise": 6,
+    "verdict": "Volume flags preceded a real (\u22653%) move 40% of the time \u2014 1 up, 3 down. Note: this only says something moved, NOT which way. A volume flag is not a buy signal."
   },
   "flags": [
     {
       "ticker": "MSFT",
       "anchor": 493.78,
       "date": "2026-09-18T21:44:50.392871+00:00",
-      "resolved": false
+      "resolved": true
     },
     {
       "ticker": "V",
       "anchor": 368.29,
       "date": "2026-09-18T21:44:50.878370+00:00",
-      "resolved": false
+      "resolved": true
     },
     {
       "ticker": "MA",
       "anchor": 565.24,
       "date": "2026-09-18T21:44:51.400754+00:00",
-      "resolved": false
+      "resolved": true
     },
     {
       "ticker": "GS",
@@ -138,5 +138,5 @@
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-23T20:44:44.768820+00:00"
+  "lastRun": "2026-09-23T23:15:33.709417+00:00"
 }
