@@ -71,72 +71,72 @@
     }
   ],
   "regime": {
-    "label": "NORMAL \u00b7 VIX 15.4",
+    "label": "NORMAL \u00b7 VIX 15.2",
     "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "499.28",
-      "change": "+3.32%",
+      "price": "500.59",
+      "change": "+3.59%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "362.45",
-      "change": "-2.32%",
+      "price": "361.52",
+      "change": "-2.57%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "559.77",
-      "change": "-3.59%",
+      "price": "559.92",
+      "change": "-3.57%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "338.51",
-      "change": "-3.72%",
+      "price": "337.53",
+      "change": "-4.00%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "224.46",
-      "change": "+4.54%",
+      "price": "225.51",
+      "change": "+5.03%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "937.32",
-      "change": "-9.81%",
+      "price": "936.36",
+      "change": "-9.90%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "21.59",
-      "change": "+9.04%",
+      "price": "21.28",
+      "change": "+7.47%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "89.27",
-      "change": "+3.87%",
+      "price": "91.28",
+      "change": "+6.21%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "124.83",
-      "change": "+15.44%",
+      "price": "122.70",
+      "change": "+13.47%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "199.06",
-      "change": "+6.74%",
+      "price": "198.13",
+      "change": "+6.24%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-09-23T17:31:59.270192+00:00"
+  "lastRun": "2026-09-23T20:44:44.768820+00:00"
 }
