@@ -71,72 +71,72 @@
     }
   ],
   "regime": {
-    "label": "NORMAL \u00b7 VIX 15.3",
+    "label": "NORMAL \u00b7 VIX 15.5",
     "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "517.53",
-      "change": "+4.17%",
+      "price": "525.18",
+      "change": "+5.10%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "360.66",
-      "change": "-4.69%",
+      "price": "369.71",
+      "change": "-1.43%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "552.26",
-      "change": "-6.10%",
+      "price": "564.59",
+      "change": "-2.52%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
       "price": "332.38",
-      "change": "-6.69%",
+      "change": "-7.32%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "233.95",
-      "change": "+4.25%",
+      "price": "238.90",
+      "change": "+3.71%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "902.56",
-      "change": "-10.14%",
+      "price": "893.46",
+      "change": "-13.98%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "22.51",
-      "change": "+2.04%",
+      "price": "23.30",
+      "change": "+3.88%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "93.94",
-      "change": "+4.87%",
+      "price": "94.91",
+      "change": "+3.38%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "112.74",
-      "change": "+5.37%",
+      "price": "114.11",
+      "change": "-6.55%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "183.00",
-      "change": "+4.60%",
+      "price": "188.22",
+      "change": "+1.94%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-10-02T22:23:00.235856+00:00"
+  "lastRun": "2026-10-05T20:51:01.919901+00:00"
 }
