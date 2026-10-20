@@ -83,72 +83,72 @@
     }
   ],
   "regime": {
-    "label": "NORMAL \u00b7 VIX 18.4",
+    "label": "NORMAL \u00b7 VIX 17.6",
     "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "533.52",
+      "price": "533.54",
       "change": "+8.05%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "402.92",
-      "change": "+9.40%",
+      "price": "407.44",
+      "change": "+10.63%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "616.40",
-      "change": "+9.05%",
+      "price": "622.04",
+      "change": "+10.05%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "333.53",
-      "change": "-4.62%",
+      "price": "335.38",
+      "change": "-4.09%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "217.09",
-      "change": "-2.33%",
+      "price": "216.99",
+      "change": "-2.38%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "875.78",
-      "change": "-7.03%",
+      "price": "886.10",
+      "change": "-5.93%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "23.54",
-      "change": "+14.61%",
+      "price": "23.34",
+      "change": "+13.66%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "94.60",
-      "change": "+8.79%",
+      "price": "96.11",
+      "change": "+10.52%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "96.52",
-      "change": "-19.45%",
+      "price": "98.60",
+      "change": "-17.71%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "168.45",
-      "change": "-13.28%",
+      "price": "171.59",
+      "change": "-11.67%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-10-19T22:40:09.188574+00:00"
+  "lastRun": "2026-10-20T17:36:00.942150+00:00"
 }
