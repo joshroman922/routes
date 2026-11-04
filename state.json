@@ -101,72 +101,72 @@
     }
   ],
   "regime": {
-    "label": "NORMAL \u00b7 VIX 20.8",
+    "label": "NORMAL \u00b7 VIX 16.8",
     "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "520.99",
-      "change": "+0.67%",
+      "price": "558.00",
+      "change": "+7.82%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "420.42",
-      "change": "+16.57%",
+      "price": "433.95",
+      "change": "+20.32%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "647.18",
-      "change": "+17.19%",
+      "price": "670.68",
+      "change": "+21.44%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "337.98",
-      "change": "+1.68%",
+      "price": "350.12",
+      "change": "+5.34%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "206.69",
-      "change": "-11.65%",
+      "price": "202.25",
+      "change": "-13.55%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "896.09",
-      "change": "-0.72%",
+      "price": "925.83",
+      "change": "+2.58%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "21.99",
-      "change": "-2.31%",
+      "price": "23.43",
+      "change": "+4.07%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "90.47",
-      "change": "-3.69%",
+      "price": "89.75",
+      "change": "-4.47%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "85.68",
-      "change": "-24.00%",
+      "price": "87.59",
+      "change": "-22.30%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "145.45",
-      "change": "-20.52%",
+      "price": "151.72",
+      "change": "-17.09%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-11-04T00:14:14.454702+00:00"
+  "lastRun": "2026-11-04T20:06:23.456012+00:00"
 }
