@@ -1,6 +1,6 @@
 {
   "audit": {
-    "flagsLogged": 15,
+    "flagsLogged": 16,
     "resolved": 15,
     "realMove": 8,
     "moveUp": 1,
@@ -9,6 +9,12 @@
     "verdict": "Volume flags preceded a real (\u22653%) move 53% of the time \u2014 1 up, 7 down. Note: this only says something moved, NOT which way. A volume flag is not a buy signal."
   },
   "flags": [
+    {
+      "ticker": "MSFT",
+      "anchor": 555.8,
+      "date": "2026-11-05T00:56:44.088846+00:00",
+      "resolved": false
+    },
     {
       "ticker": "MSFT",
       "anchor": 530.14,
@@ -101,72 +107,72 @@
     }
   ],
   "regime": {
-    "label": "NORMAL \u00b7 VIX 16.8",
+    "label": "NORMAL \u00b7 VIX 16.6",
     "note": "Ordinary conditions. Standard risk/reward."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "558.00",
-      "change": "+7.82%",
-      "volume": "Normal"
+      "price": "555.80",
+      "change": "+7.39%",
+      "volume": "Volume expansion"
     },
     {
       "ticker": "V",
-      "price": "433.95",
-      "change": "+20.32%",
+      "price": "436.57",
+      "change": "+21.05%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "670.68",
-      "change": "+21.44%",
+      "price": "672.68",
+      "change": "+21.80%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "350.12",
-      "change": "+5.34%",
+      "price": "352.11",
+      "change": "+5.94%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "202.25",
-      "change": "-13.55%",
+      "price": "200.13",
+      "change": "-14.46%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "925.83",
-      "change": "+2.58%",
+      "price": "928.00",
+      "change": "+2.82%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "23.43",
-      "change": "+4.07%",
+      "price": "23.75",
+      "change": "+5.51%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "89.75",
-      "change": "-4.47%",
+      "price": "89.68",
+      "change": "-4.53%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "87.59",
-      "change": "-22.30%",
+      "price": "87.41",
+      "change": "-22.47%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "151.72",
-      "change": "-17.09%",
+      "price": "151.50",
+      "change": "-17.21%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-11-04T20:06:23.456012+00:00"
+  "lastRun": "2026-11-05T00:56:48.556558+00:00"
 }
