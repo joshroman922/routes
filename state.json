@@ -1,19 +1,25 @@
 {
   "audit": {
-    "flagsLogged": 16,
-    "resolved": 15,
-    "realMove": 8,
+    "flagsLogged": 17,
+    "resolved": 16,
+    "realMove": 9,
     "moveUp": 1,
-    "moveDown": 7,
+    "moveDown": 8,
     "noise": 7,
-    "verdict": "Volume flags preceded a real (\u22653%) move 53% of the time \u2014 1 up, 7 down. Note: this only says something moved, NOT which way. A volume flag is not a buy signal."
+    "verdict": "Volume flags preceded a real (\u22653%) move 56% of the time \u2014 1 up, 8 down. Note: this only says something moved, NOT which way. A volume flag is not a buy signal."
   },
   "flags": [
+    {
+      "ticker": "NVDA",
+      "anchor": 183.035,
+      "date": "2026-11-05T20:21:09.480812+00:00",
+      "resolved": false
+    },
     {
       "ticker": "MSFT",
       "anchor": 555.8,
       "date": "2026-11-05T00:56:44.088846+00:00",
-      "resolved": false
+      "resolved": true
     },
     {
       "ticker": "MSFT",
@@ -107,72 +113,72 @@
     }
   ],
   "regime": {
-    "label": "NORMAL \u00b7 VIX 16.6",
-    "note": "Ordinary conditions. Standard risk/reward."
+    "label": "ELEVATED \u00b7 VIX 25.4",
+    "note": "Choppier than usual \u2014 stops get hit more often. Your call whether to give room or size down."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "555.80",
-      "change": "+7.39%",
-      "volume": "Volume expansion"
+      "price": "535.38",
+      "change": "+1.94%",
+      "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "436.57",
-      "change": "+21.05%",
+      "price": "424.93",
+      "change": "+14.94%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "672.68",
-      "change": "+21.80%",
+      "price": "656.85",
+      "change": "+16.34%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "352.11",
-      "change": "+5.94%",
+      "price": "337.69",
+      "change": "+1.60%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "200.13",
-      "change": "-14.46%",
-      "volume": "Normal"
+      "price": "183.03",
+      "change": "-23.38%",
+      "volume": "Volume expansion"
     },
     {
       "ticker": "GS",
-      "price": "928.00",
-      "change": "+2.82%",
+      "price": "873.18",
+      "change": "-2.27%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "23.75",
-      "change": "+5.51%",
+      "price": "22.46",
+      "change": "-3.58%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "89.68",
-      "change": "-4.53%",
+      "price": "84.92",
+      "change": "-10.53%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "87.41",
-      "change": "-22.47%",
+      "price": "78.50",
+      "change": "-31.21%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "151.50",
-      "change": "-17.21%",
+      "price": "137.72",
+      "change": "-26.83%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-11-05T00:56:48.556558+00:00"
+  "lastRun": "2026-11-05T20:21:11.887800+00:00"
 }
