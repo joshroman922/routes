@@ -119,72 +119,72 @@
     }
   ],
   "regime": {
-    "label": "ELEVATED \u00b7 VIX 24.8",
+    "label": "ELEVATED \u00b7 VIX 25.6",
     "note": "Choppier than usual \u2014 stops get hit more often. Your call whether to give room or size down."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "533.23",
-      "change": "+0.74%",
+      "price": "530.61",
+      "change": "+0.25%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "423.92",
-      "change": "+14.37%",
+      "price": "422.65",
+      "change": "+14.03%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "656.53",
-      "change": "+15.88%",
+      "price": "652.70",
+      "change": "+15.20%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "336.98",
-      "change": "+1.72%",
+      "price": "334.49",
+      "change": "+0.97%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "187.46",
-      "change": "-21.65%",
+      "price": "186.64",
+      "change": "-21.99%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "871.99",
-      "change": "-2.81%",
+      "price": "865.82",
+      "change": "-3.50%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "21.86",
-      "change": "-8.13%",
+      "price": "21.48",
+      "change": "-9.71%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "86.05",
-      "change": "-9.04%",
+      "price": "86.08",
+      "change": "-9.01%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "79.69",
-      "change": "-28.84%",
+      "price": "80.91",
+      "change": "-27.76%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "133.83",
-      "change": "-27.95%",
+      "price": "134.76",
+      "change": "-27.45%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-11-06T19:44:05.674999+00:00"
+  "lastRun": "2026-11-06T23:50:45.800686+00:00"
 }
