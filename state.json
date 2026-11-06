@@ -119,72 +119,72 @@
     }
   ],
   "regime": {
-    "label": "ELEVATED \u00b7 VIX 28.2",
+    "label": "ELEVATED \u00b7 VIX 24.8",
     "note": "Choppier than usual \u2014 stops get hit more often. Your call whether to give room or size down."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "535.93",
-      "change": "+2.05%",
+      "price": "533.23",
+      "change": "+0.74%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "422.59",
-      "change": "+14.30%",
-      "volume": "Volume expansion"
+      "price": "423.92",
+      "change": "+14.37%",
+      "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "655.92",
-      "change": "+16.18%",
+      "price": "656.53",
+      "change": "+15.88%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "337.34",
-      "change": "+1.49%",
+      "price": "336.98",
+      "change": "+1.72%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "181.60",
-      "change": "-23.98%",
-      "volume": "Volume expansion"
+      "price": "187.46",
+      "change": "-21.65%",
+      "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "868.95",
-      "change": "-2.74%",
+      "price": "871.99",
+      "change": "-2.81%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "22.41",
-      "change": "-3.82%",
+      "price": "21.86",
+      "change": "-8.13%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "84.20",
-      "change": "-11.28%",
+      "price": "86.05",
+      "change": "-9.04%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "78.39",
-      "change": "-31.30%",
+      "price": "79.69",
+      "change": "-28.84%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "136.82",
-      "change": "-27.31%",
+      "price": "133.83",
+      "change": "-27.95%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-11-06T00:59:10.856833+00:00"
+  "lastRun": "2026-11-06T19:44:05.674999+00:00"
 }
