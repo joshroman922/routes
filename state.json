@@ -137,72 +137,72 @@
     }
   ],
   "regime": {
-    "label": "ELEVATED \u00b7 VIX 22.9",
+    "label": "ELEVATED \u00b7 VIX 25.6",
     "note": "Choppier than usual \u2014 stops get hit more often. Your call whether to give room or size down."
   },
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "517.99",
-      "change": "-2.09%",
+      "price": "506.24",
+      "change": "-4.31%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "426.46",
-      "change": "+5.92%",
+      "price": "416.77",
+      "change": "+3.52%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "661.71",
-      "change": "+7.17%",
+      "price": "645.73",
+      "change": "+4.59%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "338.21",
-      "change": "-0.44%",
+      "price": "329.96",
+      "change": "-2.87%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "156.14",
-      "change": "-27.08%",
+      "price": "155.46",
+      "change": "-27.40%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "891.54",
-      "change": "+1.17%",
-      "volume": "Volume expansion"
+      "price": "877.52",
+      "change": "-0.42%",
+      "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "19.76",
-      "change": "-14.53%",
+      "price": "19.35",
+      "change": "-16.31%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "85.79",
-      "change": "-6.49%",
+      "price": "80.39",
+      "change": "-12.37%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "72.06",
-      "change": "-27.12%",
+      "price": "69.19",
+      "change": "-30.02%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "119.84",
-      "change": "-30.79%",
+      "price": "115.02",
+      "change": "-33.58%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-11-16T22:35:21.566938+00:00"
+  "lastRun": "2026-11-17T21:24:36.805126+00:00"
 }
