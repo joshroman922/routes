@@ -137,7 +137,7 @@
     }
   ],
   "regime": {
-    "label": "ELEVATED \u00b7 VIX 25.6",
+    "label": "ELEVATED \u00b7 VIX 25.5",
     "note": "Choppier than usual \u2014 stops get hit more often. Your call whether to give room or size down."
   },
   "watchlist": [
@@ -204,5 +204,5 @@
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-11-17T21:24:36.805126+00:00"
+  "lastRun": "2026-11-18T02:58:25.809917+00:00"
 }
