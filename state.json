@@ -143,66 +143,66 @@
   "watchlist": [
     {
       "ticker": "MSFT",
-      "price": "508.12",
-      "change": "-3.96%",
+      "price": "508.29",
+      "change": "-3.92%",
       "volume": "Normal"
     },
     {
       "ticker": "V",
-      "price": "415.11",
-      "change": "+3.10%",
+      "price": "415.22",
+      "change": "+3.13%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "643.94",
-      "change": "+4.30%",
+      "price": "643.37",
+      "change": "+4.20%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "324.68",
-      "change": "-4.43%",
+      "price": "324.11",
+      "change": "-4.59%",
       "volume": "Normal"
     },
     {
       "ticker": "NVDA",
-      "price": "150.84",
-      "change": "-29.55%",
+      "price": "150.96",
+      "change": "-29.50%",
       "volume": "Normal"
     },
     {
       "ticker": "GS",
-      "price": "874.40",
-      "change": "-0.78%",
+      "price": "873.18",
+      "change": "-0.92%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "19.82",
-      "change": "-14.27%",
+      "price": "19.84",
+      "change": "-14.19%",
       "volume": "Normal"
     },
     {
       "ticker": "ESTC",
-      "price": "83.04",
-      "change": "-9.48%",
+      "price": "83.01",
+      "change": "-9.52%",
       "volume": "Normal"
     },
     {
       "ticker": "HOOD",
-      "price": "69.40",
-      "change": "-29.81%",
+      "price": "69.17",
+      "change": "-30.04%",
       "volume": "Normal"
     },
     {
       "ticker": "COIN",
-      "price": "110.82",
-      "change": "-36.00%",
+      "price": "110.51",
+      "change": "-36.18%",
       "volume": "Normal"
     }
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-11-18T20:56:31.181500+00:00"
+  "lastRun": "2026-11-19T02:07:46.968625+00:00"
 }
