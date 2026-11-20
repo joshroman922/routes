@@ -161,20 +161,20 @@
     },
     {
       "ticker": "V",
-      "price": "402.54",
-      "change": "-0.10%",
+      "price": "402.25",
+      "change": "-0.17%",
       "volume": "Normal"
     },
     {
       "ticker": "MA",
-      "price": "626.76",
-      "change": "+1.68%",
+      "price": "626.50",
+      "change": "+1.64%",
       "volume": "Normal"
     },
     {
       "ticker": "JPM",
-      "price": "320.29",
-      "change": "-3.97%",
+      "price": "320.22",
+      "change": "-3.99%",
       "volume": "Normal"
     },
     {
@@ -185,20 +185,20 @@
     },
     {
       "ticker": "GS",
-      "price": "848.06",
-      "change": "-3.17%",
+      "price": "847.53",
+      "change": "-3.23%",
       "volume": "Normal"
     },
     {
       "ticker": "GAP",
-      "price": "18.89",
-      "change": "-19.75%",
+      "price": "18.79",
+      "change": "-20.18%",
       "volume": "Volume expansion"
     },
     {
       "ticker": "ESTC",
-      "price": "76.09",
-      "change": "-19.57%",
+      "price": "76.33",
+      "change": "-19.31%",
       "volume": "Volume expansion"
     },
     {
@@ -216,5 +216,5 @@
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-11-19T21:02:43.248536+00:00"
+  "lastRun": "2026-11-20T02:25:57.801632+00:00"
 }
