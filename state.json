@@ -1,19 +1,19 @@
 {
   "audit": {
     "flagsLogged": 27,
-    "resolved": 26,
+    "resolved": 27,
     "realMove": 18,
     "moveUp": 6,
     "moveDown": 12,
-    "noise": 8,
-    "verdict": "Volume flags preceded a real (\u22653%) move 69% of the time \u2014 6 up, 12 down. Note: this only says something moved, NOT which way. A volume flag is not a buy signal."
+    "noise": 9,
+    "verdict": "Volume flags preceded a real (\u22653%) move 67% of the time \u2014 6 up, 12 down. Note: this only says something moved, NOT which way. A volume flag is not a buy signal."
   },
   "flags": [
     {
       "ticker": "JPM",
       "anchor": 310.53,
       "date": "2026-11-21T01:50:14.014818+00:00",
-      "resolved": false
+      "resolved": true
     },
     {
       "ticker": "ESTC",
@@ -173,7 +173,7 @@
     }
   ],
   "regime": {
-    "label": "ELEVATED \u00b7 VIX 28.3",
+    "label": "ELEVATED \u00b7 VIX 26.8",
     "note": "Choppier than usual \u2014 stops get hit more often. Your call whether to give room or size down."
   },
   "watchlist": [
@@ -240,5 +240,5 @@
   ],
   "feed": "Yahoo (free)",
   "status": "LIVE SYNC",
-  "lastRun": "2026-11-25T22:01:20.882793+00:00"
+  "lastRun": "2026-11-26T21:59:38.305462+00:00"
 }
